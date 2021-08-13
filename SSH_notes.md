@@ -24,15 +24,12 @@
 `sudo nano ~/.ssh/config`
 
 **Example:**
-
----
 ```
 Host mrto3
     HostName 10.24.55.93
     Port 1670
     User mrto3-167
 ```
----
 And now you can connect to server like this: `ssh mrto3`
 
 ## Usefull commands
