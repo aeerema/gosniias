@@ -96,7 +96,7 @@ sudo docker exec docker1 python3 filename.py
 **Enter in docker**
 
 ````bash
-sudo docker attack docker1
+sudo docker attach docker1
 ````
 
 # For server
