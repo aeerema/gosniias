@@ -72,7 +72,8 @@ sudo usermod -a -G 4,24,27,30,46,120,131,132 *username*
 **Create docker container**
 
 ```bash
-cd /home/harddisk/epitome-polygon-deep-learning/docker/lydorn/anaconda-tensorflow-geo/sudo docker run --runtime=nvidia -it --name=docker1 -v /home/harddisk/epitome-polygon-deep-learning:/workspace lydorn/anaconda-tensorflow-geo
+cd /home/harddisk/epitome-polygon-deep-learning/docker/lydorn/anaconda-tensorflow-geo/
+sudo docker run --runtime=nvidia -it --name=docker1 -v /home/harddisk/epitome-polygon-deep-learning:/workspace lydorn/anaconda-tensorflow-geo
 ```
 
 **List of containers**
